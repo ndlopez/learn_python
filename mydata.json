@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "from": "Rochester, NY",
+            "name": "Jayden Jaymes",
+            "website": "www.jaydenmichele.com"
+        },
+        {
+            "from": "Ontario, Canada",
+            "name": "August Ames",
+            "website": "www.august.co.ca"
+        },
+        {
+            "from": "London, UK",
+            "name": "Keisha Grey",
+            "website": "www.lovelykeisha.com"
+        }
+    ]
+}
