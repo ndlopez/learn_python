@@ -1,5 +1,7 @@
 # Qt for Python -- Building GUI apps
 
+I didnt know that it was kinda easy to build GUI apps. I decided to give it a try in Qt.
+![The result](hello_work.png)
 ## Qt Installation
 
 	$ pip install pyside6
