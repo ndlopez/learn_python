@@ -1,4 +1,5 @@
 # sort of noteApp
+# more at https://pythonpyqt.com/pyqt-qtextedit/
 import sys
 from PySide6.QtWidgets import QApplication, QWidget, QTextEdit, QVBoxLayout, QPushButton
 
