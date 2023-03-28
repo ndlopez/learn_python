@@ -23,7 +23,7 @@ xPos=30
 yPos=20
 offset=35
 myFont = ("Arial",12,"")
-
+filename = r"C:/Users/tgA5313/Documents/test/sat_time.csv"
 
 # aux_date = _date.split("/")
 
@@ -101,9 +101,16 @@ def stop_timer():
 
    init_values()
    submit(got_time)
-
  
-
+def write_info(new_data):
+   """with open(filename,"r") as inFile:
+       data = csv.reader(inFile,delimiter=',')
+       for row in data:
+           print(row)"""
+       
+   with open (filename,'a',newline='') as outFile:
+       add_data = csv.writer(outFile,delimiter=',')
+       add_data.writerow(new_data)
 
 """Yes! sqlite is installed
 def create_connection():
