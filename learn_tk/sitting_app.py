@@ -25,6 +25,10 @@ offset=35
 myFont = ("Arial",12,"")
 filename = r"C:/Users/tgA5313/Documents/test/sat_time.csv"
 
+if len(sys.argv) <= 1:
+   print("A valid date is required (YYYY/MM/DD)")
+   exit()
+   _date = sys.argv[1]
 # aux_date = _date.split("/")
 
 msg = Label(root,text="Reduce your sitting time",foreground='#0000ff',
