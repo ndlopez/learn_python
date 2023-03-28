@@ -27,6 +27,14 @@ filename = r"C:/Users/tgA5313/Documents/test/sat_time.csv"
 
 # aux_date = _date.split("/")
 
+msg = Label(root,text="Reduce your sitting time",foreground='#0000ff',
+font=myFont)
+msg.place(x=xPos-10,y=160)
+
+warn_msg = Label(root,text="",foreground="#ff0000", 
+font=myFont,textvariable=warn)
+warn_msg.place(x=xPos,y=yPos+2*offset)
+
 hrEntry = Entry(root,width=3,font=("Arial",18,""),textvariable=hr,justify="right")
 hrEntry.place(x=xPos,y=yPos)
 hrLabel = Label(root,text="HRS")
