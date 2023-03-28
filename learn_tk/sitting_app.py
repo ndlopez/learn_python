@@ -28,28 +28,31 @@ filename = r"C:/Users/tgA5313/Documents/test/sat_time.csv"
 if len(sys.argv) <= 1:
    print("A valid date is required (YYYY/MM/DD)")
    exit()
-   _date = sys.argv[1]
+_date = sys.argv[1]
 # aux_date = _date.split("/")
 
 msg = Label(root,text="Reduce your sitting time",foreground='#0000ff',
 font=myFont)
 msg.place(x=xPos-10,y=160)
 
-warn_msg = Label(root,text="",foreground="#ff0000", 
+warn_msg = Label(root,text="",foreground="#ff0000",\
 font=myFont,textvariable=warn)
 warn_msg.place(x=xPos,y=yPos+2*offset)
 
-hrEntry = Entry(root,width=3,font=("Arial",18,""),textvariable=hr,justify="right")
+hrEntry = Entry(root,width=3,font=("Arial",18,""),\
+textvariable=hr,justify="right")
 hrEntry.place(x=xPos,y=yPos)
 hrLabel = Label(root,text="HRS")
 hrLabel.place(x=xPos+10,y=yPos+offset)
 
-miEntry = Entry(root,width=3,font=("Arial",18,""),textvariable=mi,justify="right")
+miEntry = Entry(root,width=3,font=("Arial",18,""),\
+textvariable=mi,justify="right")
 miEntry.place(x=xPos+50,y=yPos)
 miLabel = Label(root,text="MINS")
 miLabel.place(x=xPos+60,y=yPos+offset)
 
-secEntry = Entry(root,width=3,font=("Arial",18,""),textvariable=sec,justify="right")
+secEntry = Entry(root,width=3,font=("Arial",18,""),\
+textvariable=sec,justify="right")
 secEntry.place(x=xPos+100,y=yPos)
 secLabel = Label(root,text="SECS")
 secLabel.place(x=xPos+110,y=yPos+offset)
