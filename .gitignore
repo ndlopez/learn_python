@@ -9,3 +9,5 @@ flask_tutorial/*.pyc
 flask_tutorial/dist/
 flask_tutorial/build/
 flask_tutorial/*.egg-info/
+#sitting app data
+learn_tk/sitting*.csv

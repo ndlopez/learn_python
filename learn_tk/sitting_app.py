@@ -23,7 +23,7 @@ xPos=30
 yPos=20
 offset=35
 myFont = ("Arial",12,"")
-filename = r"C:/Users/tgA5313/Documents/test/sat_time.csv"
+filename = r"sitting_time.csv"
 
 if len(sys.argv) <= 1:
    print("A valid date is required (YYYY/MM/DD)")
