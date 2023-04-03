@@ -2,15 +2,19 @@
 
 In this repository I summarize most of the Python code I wrote back in 2018 when I first started to experiment with this language. Little that I know, I will use this language -- and not the one I learned at University (C, C++) -- for work.
 
-# Basic Python
+## Basic
 
-# Local Server
+Dealing with strings, arrays, IO, graphics, etc.
 
-# GUI in Python
+## Intermediate
 
-## GTK 3.0
-## Tkinter
-## Qt (PyQt)
+- Local Server: Flask
+
+- GUI in Python
+
+	- GTK 3.0
+	- Tkinter
+	- Qt (PyQt)
 
 
 # Running Environment
